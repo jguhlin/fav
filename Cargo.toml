@@ -1,0 +1,22 @@
+[package]
+name = "fav-workspace"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+members = [
+    "fav-ratatui",
+    "fav-egui",
+    "fav-common",
+    "fav"
+]
+
+[workspace.dependencies]
+minimap2 = { path = "../minimap2-rs", version = "0.1.21+minimap2.2.28" }
+crossbeam = "0.8.4"
+tokio = { version = "1", features = ["full"] }
+tokio-stream = { version = "0.1.16", features = ["sync"] }
+log = "0.4.22"
+humantime = "2.1.0"
+num-format = { version = "0.4.4", features = ["with-system-locale"] }
