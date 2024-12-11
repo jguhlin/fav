@@ -1,3 +1,4 @@
+<<<<<<< ours
 [package]
 name = "fav-ratatui"
 version = "0.1.0"
@@ -13,3 +14,12 @@ num-format.workspace = true
 ratatui = "0.29.0"
 crossterm = { version = "0.28.1", features = ["event-stream"] }
 tachyonfx = "0.10"
+|||||||
+=======
+[package]
+name = "fav-ratatui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+>>>>>>> theirs

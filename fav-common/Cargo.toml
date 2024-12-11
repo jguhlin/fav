@@ -1,3 +1,4 @@
+<<<<<<< ours
 [package]
 name = "fav-common"
 version = "0.1.0"
@@ -11,3 +12,12 @@ minimap2.workspace = true
 log.workspace = true
 dashmap = "6.1.0"
 rayon = "1.10.0"
+|||||||
+=======
+[package]
+name = "fav-common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+>>>>>>> theirs
